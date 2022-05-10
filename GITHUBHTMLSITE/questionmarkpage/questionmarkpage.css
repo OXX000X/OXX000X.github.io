@@ -1,0 +1,53 @@
+body { 
+  background-color: rgb(170, 170, 170); 
+  }
+
+.p {
+  animation: p 2s;
+}
+
+@keyframes p {
+  0%{ color: aliceblue;}
+  0%{    color: #000; }
+  0%{    color: transparent; }
+  0%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+
+p { 
+  position: relative;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 10em;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+#BackgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: .3em;
+  padding-top: 1em;
+  color: #FFFFFF;
+}
+
+.h1 {
+  animation-duration: 2s;
+}
+
+@keyframes h1 {
+  0%{ color: aliceblue;}
+  0%{    color: #000; }
+  0%{    color: transparent; }
+  0%{    color:transparent;  }
+  100%{   color: #000;    }
+}
